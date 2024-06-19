@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News-project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Welcome to NewsProject.com</h1>
+    </div>
+
+    <div class="navbar">
+        <i class="fa-solid fa-bars"></i>
+        <div class="nav-links">
+            <ul>
+                <li class="hover-link item1">Business</li>
+                <li class="hover-link item2">Entertainment</li>
+                <li class="hover-link item3">General</li>
+                <li class="hover-link item4">Health</li>
+                <li class="hover-link item5">Science</li>
+                <li class="hover-link item6">Sports</li>
+                <li class="hover-link item7">Technology</li>
+    
+            </ul>
+        </div>
+
+        <div class="search-bar">
+            <input name="searching" placeholder="search for country">
+            <button class="search-button">Search</button> 
+        </div>
+        
+        
+
+           
+    </div>
+
+    
+        <div class="main-news">
+            <div class="news-heading">Top Stories International</div>
+            <div class="news-flash" id="flash-card-container">        
+            </div>
+          </div>
+          
+          <!-- Add a template for the news card -->
+          <template id="news-card-template">
+            <div class="news-card">
+              <div class="card-header">
+                <img src="" alt="news-img" id="news-img">
+              </div>
+              <div class="card-content">
+                <h3 id="headline">These are the headlines</h3>
+                <div class="last-line">
+                  <h6 id="source">Source name</h6>
+                  <h6 id="date">DD/MM/YYYY</h6>
+                </div>
+              </div>
+            </div>
+          </template>
+
+    <div class="footer">By : Khushi Mundra
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
