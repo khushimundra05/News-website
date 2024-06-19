@@ -7,7 +7,7 @@
 
 
 const apiKey = 'fb483f8af2f24c699f3af817163279a6';
-const baseUrl = 'https://newsapi.org/v2/everything';
+const baseUrl = 'https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything';
 const flashCardContainer = document.getElementById('flash-card-container');
 const searchInput = document.querySelector('.search-bar input');
 const searchButton = document.querySelector('.search-button');
