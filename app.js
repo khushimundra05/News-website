@@ -1,12 +1,12 @@
 //base_url="https://newsapi.org/v2/everything?q=";
-//country=us&apiKey=fb483f8af2f24c699f3af817163279a6
-//api_key="fb483f8af2f24c699f3af817163279a6";
+//country=us&apiKey=<>
+//api_key="";
 //const query=document.querySelector(".search-bar input");
 
 
 
 
-const apiKey = 'fb483f8af2f24c699f3af817163279a6';
+const apiKey = '';
 const baseUrl = 'https://newsapi.org/v2/everything';
 const flashCardContainer = document.getElementById('flash-card-container');
 const searchInput = document.querySelector('.search-bar input');
